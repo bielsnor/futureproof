@@ -3,7 +3,7 @@
     
         "post0": {
             "title": "Confirmed Cases in the US by State",
-            "content": "Click On State To Filter Chart Below . .",
+            "content": "Click On State To Filter Chart Below . NameError Traceback (most recent call last) &lt;ipython-input-1-15874cc683de&gt; in &lt;module&gt; 1 #hide_input -&gt; 2 final_chart NameError: name &#39;final_chart&#39; is not defined .",
             "url": "https://bielsnor.github.io/futureproof/growth-map-us/",
             "relUrl": "/growth-map-us/",
             "date": " • Mar 28, 2020"
