@@ -283,7 +283,7 @@ table td { border: 1px solid #e8e8e8; }
 .post-link { display: block; font-size: 1.5rem; }
 
 /** Posts */
-.post-header { margin-bottom: 0px; visibility: hidden; }
+.post-header { margin-bottom: 0px; visibility: hidden; height: 1px; }
 
 .post-title, .post-content h1 { visibility: hidden; }
 
