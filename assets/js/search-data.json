@@ -124,9 +124,9 @@
     
         ,"post11": {
             "title": "Interactive Map - Confirmed Cases in the US by State",
-            "content": "Click On State To Filter Chart Below . Prepared by Asif Imran1 . . Source: &quot;https://covidtracking.com/api/&quot;.&#8617; . |",
-            "url": "https://bielsnor.github.io/futureproof/growth-map-us-states/",
-            "relUrl": "/growth-map-us-states/",
+            "content": "Click On State To Filter Chart Below . .",
+            "url": "https://bielsnor.github.io/futureproof/COVID19-growth-usa/",
+            "relUrl": "/COVID19-growth-usa/",
             "date": " • Mar 15, 2020"
         }
         
