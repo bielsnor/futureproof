@@ -276,7 +276,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .post-list { margin-left: 0; list-style: none; }
 
-.post-list > li { margin-bottom: 30px; }
+.post-list > li { margin-bottom: 10px; }
 
 .post-meta { font-size: 14px; color: #828282; }
 
@@ -291,7 +291,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .post-content { margin-bottom: 8px; }
 
-.post-content h1, .post-content h2, .post-content h3 { margin-top: 60px; }
+.post-content h1, .post-content h2, .post-content h3 { margin-top: 10px; }
 
 .post-content h4, .post-content h5, .post-content h6 { margin-top: 30px; }
 
