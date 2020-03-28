@@ -268,7 +268,7 @@ table td { border: 1px solid #e8e8e8; }
   .footer-col:last-child { padding-right: 0; padding-left: 15px; } }
 
 /** Page content */
-.page-content { padding: 30px 0; flex: 1 0 auto; }
+.page-content { padding: 3px 0; flex: 1 0 auto; }
 
 .page-heading { font-size: 2rem; }
 
