@@ -142,66 +142,6 @@ window.onload = wrap_img;
     
 <div class="cell border-box-sizing code_cell rendered">
 
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">ModuleNotFoundError</span>                       Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">C:\ProgramData\Anaconda3\lib\site-packages\altair\utils\headless.py</span> in <span class="ansi-cyan-fg">compile_spec</span><span class="ansi-blue-intense-fg ansi-bold">(spec, format, mode, vega_version, vegaembed_version, vegalite_version, scale_factor, driver_timeout, webdriver)</span>
-<span class="ansi-green-fg">    114</span>     <span class="ansi-green-intense-fg ansi-bold">try</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 115</span><span class="ansi-yellow-intense-fg ansi-bold">         </span><span class="ansi-green-intense-fg ansi-bold">import</span> selenium<span class="ansi-yellow-intense-fg ansi-bold">.</span>webdriver
-<span class="ansi-green-fg">    116</span>     <span class="ansi-green-intense-fg ansi-bold">except</span> ImportError<span class="ansi-yellow-intense-fg ansi-bold">:</span>
-
-<span class="ansi-red-intense-fg ansi-bold">ModuleNotFoundError</span>: No module named &#39;selenium&#39;
-
-During handling of the above exception, another exception occurred:
-
-<span class="ansi-red-intense-fg ansi-bold">ImportError</span>                               Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-3-fcf1e34474e8&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-fg">     73</span> <span class="ansi-yellow-intense-fg ansi-bold">.</span>configure_axis<span class="ansi-yellow-intense-fg ansi-bold">(</span>labelFontSize<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-cyan-intense-fg ansi-bold">15</span><span class="ansi-yellow-intense-fg ansi-bold">,</span>titleFontSize<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-cyan-intense-fg ansi-bold">18</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">     74</span> )
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 75</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>plot1<span class="ansi-yellow-intense-fg ansi-bold">.</span>save<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#34;../images/covid-permillion-trajectories.png&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">     76</span> plot1
-
-<span class="ansi-green-intense-fg ansi-bold">C:\ProgramData\Anaconda3\lib\site-packages\altair\vegalite\v4\api.py</span> in <span class="ansi-cyan-fg">save</span><span class="ansi-blue-intense-fg ansi-bold">(self, fp, format, override_data_transformer, scale_factor, vegalite_version, vega_version, vegaembed_version, **kwargs)</span>
-<span class="ansi-green-fg">    445</span>         <span class="ansi-green-intense-fg ansi-bold">if</span> override_data_transformer<span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">    446</span>             <span class="ansi-green-intense-fg ansi-bold">with</span> data_transformers<span class="ansi-yellow-intense-fg ansi-bold">.</span>disable_max_rows<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 447</span><span class="ansi-yellow-intense-fg ansi-bold">                 </span>result <span class="ansi-yellow-intense-fg ansi-bold">=</span> save<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">**</span>kwds<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">    448</span>         <span class="ansi-green-intense-fg ansi-bold">else</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">    449</span>             result <span class="ansi-yellow-intense-fg ansi-bold">=</span> save<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">**</span>kwds<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-
-<span class="ansi-green-intense-fg ansi-bold">C:\ProgramData\Anaconda3\lib\site-packages\altair\utils\save.py</span> in <span class="ansi-cyan-fg">save</span><span class="ansi-blue-intense-fg ansi-bold">(chart, fp, vega_version, vegaembed_version, format, mode, vegalite_version, embed_options, json_kwds, webdriver, scale_factor, **kwargs)</span>
-<span class="ansi-green-fg">    100</span>                                         vegaembed_version<span class="ansi-yellow-intense-fg ansi-bold">=</span>vegaembed_version<span class="ansi-yellow-intense-fg ansi-bold">,</span>
-<span class="ansi-green-fg">    101</span>                                         webdriver<span class="ansi-yellow-intense-fg ansi-bold">=</span>webdriver<span class="ansi-yellow-intense-fg ansi-bold">,</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 102</span><span class="ansi-yellow-intense-fg ansi-bold">                                         scale_factor=scale_factor, **kwargs)
-</span><span class="ansi-green-fg">    103</span>         <span class="ansi-green-intense-fg ansi-bold">if</span> format <span class="ansi-yellow-intense-fg ansi-bold">==</span> <span class="ansi-blue-intense-fg ansi-bold">&#39;png&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">    104</span>             write_file_or_filename<span class="ansi-yellow-intense-fg ansi-bold">(</span>fp<span class="ansi-yellow-intense-fg ansi-bold">,</span> mimebundle<span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-blue-intense-fg ansi-bold">&#39;image/png&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> mode<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-blue-intense-fg ansi-bold">&#39;wb&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-
-<span class="ansi-green-intense-fg ansi-bold">C:\ProgramData\Anaconda3\lib\site-packages\altair\utils\mimebundle.py</span> in <span class="ansi-cyan-fg">spec_to_mimebundle</span><span class="ansi-blue-intense-fg ansi-bold">(spec, format, mode, vega_version, vegaembed_version, vegalite_version, **kwargs)</span>
-<span class="ansi-green-fg">     54</span>                               vega_version<span class="ansi-yellow-intense-fg ansi-bold">=</span>vega_version<span class="ansi-yellow-intense-fg ansi-bold">,</span>
-<span class="ansi-green-fg">     55</span>                               vegaembed_version<span class="ansi-yellow-intense-fg ansi-bold">=</span>vegaembed_version<span class="ansi-yellow-intense-fg ansi-bold">,</span>
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 56</span><span class="ansi-yellow-intense-fg ansi-bold">                               vegalite_version=vegalite_version, **kwargs)
-</span><span class="ansi-green-fg">     57</span>         <span class="ansi-green-intense-fg ansi-bold">if</span> format <span class="ansi-yellow-intense-fg ansi-bold">==</span> <span class="ansi-blue-intense-fg ansi-bold">&#39;png&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">     58</span>             render <span class="ansi-yellow-intense-fg ansi-bold">=</span> base64<span class="ansi-yellow-intense-fg ansi-bold">.</span>b64decode<span class="ansi-yellow-intense-fg ansi-bold">(</span>render<span class="ansi-yellow-intense-fg ansi-bold">.</span>split<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#39;,&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-cyan-intense-fg ansi-bold">1</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-cyan-intense-fg ansi-bold">1</span><span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">.</span>encode<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-
-<span class="ansi-green-intense-fg ansi-bold">C:\ProgramData\Anaconda3\lib\site-packages\altair\utils\headless.py</span> in <span class="ansi-cyan-fg">compile_spec</span><span class="ansi-blue-intense-fg ansi-bold">(spec, format, mode, vega_version, vegaembed_version, vegalite_version, scale_factor, driver_timeout, webdriver)</span>
-<span class="ansi-green-fg">    116</span>     <span class="ansi-green-intense-fg ansi-bold">except</span> ImportError<span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">    117</span>         raise ImportError(&#34;selenium package is required &#34;
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 118</span><span class="ansi-yellow-intense-fg ansi-bold">                           &#34;for saving chart as {}&#34;.format(format))
-</span><span class="ansi-green-fg">    119</span> 
-<span class="ansi-green-fg">    120</span>     <span class="ansi-green-intense-fg ansi-bold">if</span> format <span class="ansi-green-intense-fg ansi-bold">not</span> <span class="ansi-green-intense-fg ansi-bold">in</span> <span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-blue-intense-fg ansi-bold">&#39;png&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-blue-intense-fg ansi-bold">&#39;svg&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-blue-intense-fg ansi-bold">&#39;vega&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-
-<span class="ansi-red-intense-fg ansi-bold">ImportError</span>: selenium package is required for saving chart as png</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
     
 
