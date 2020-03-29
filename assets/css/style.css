@@ -483,4 +483,6 @@ table td { text-overflow: ellipsis; overflow: hidden; max-width: 15em; }
 
 .site-title { font-size: 1.625rem; font-weight: 300; letter-spacing: -1px; margin-bottom: 0; float: left; }
 
+.site-footer { border-top: 1px solid #e8e8e8; padding: 0px 0; visibility: hidden; }
+
 /*# sourceMappingURL=style.css.map */
