@@ -36,7 +36,7 @@
     
         ,"post3": {
             "title": "COVID-19-Growth By State (US)",
-            "content": ". Tip: Click (Shift+ for multiple) on states in the legend to filter the visualizations below. Click outside the legend to highlight all states. . Total Cases . . Warning: The number of cases per capita can be heavily biased depending on a state&#8217;s testing procedures and how widely the population is tested. Read with caution. . Total Deaths . ###Click on each state to see data . #Data Source: &quot;2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins CSSE&quot; GitHub repository. .",
+            "content": ". Tip: Click (Shift+ for multiple) on states in the legend to filter the visualizations below. Click outside the legend to highlight all states. . Total Cases . . Warning: The number of cases per capita can be heavily biased depending on a state&#8217;s testing procedures and how widely the population is tested. Read with caution. . Total Deaths . ###Click on each state to see data . ##Data Source: &quot;2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins CSSE&quot; GitHub repository. .",
             "url": "https://bielsnor.github.io/futureproof/futureproof-COVID19-USA/",
             "relUrl": "/futureproof-COVID19-USA/",
             "date": " • Mar 27, 2020"
