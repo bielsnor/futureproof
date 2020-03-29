@@ -3,17 +3,6 @@
     
         "post0": {
             "title": "COVID-19-Growth By State (US)",
-            "content": "Comparisons with California (CA), Washington (WA) &amp; New York (NY) are show by default. . Tip: Click (Shift+ for multiple) on states in the legend to filter the visualizations below. Click outside the legend to highlight all states. . Total Cases . . Warning: The number of cases per capita can be heavily biased depending on a state&#8217;s testing procedures and how widely the population is tested. Read with caution. . Total Deaths .",
-            "url": "https://bielsnor.github.io/futureproof/futureproof-COVID19-growth-us-states/",
-            "relUrl": "/futureproof-COVID19-growth-us-states/",
-            "date": " • Mar 27, 2020"
-        }
-        
-    
-  
-    
-        ,"post1": {
-            "title": "COVID-19-Growth By State (US)",
             "content": ". Tip: Click (Shift+ for multiple) on states in the legend to filter the visualizations below. Click outside the legend to highlight all states. . Total Cases . . Warning: The number of cases per capita can be heavily biased depending on a state&#8217;s testing procedures and how widely the population is tested. Read with caution. . Total Deaths . &gt; Tip: Click On State To Filter Chart Below. .",
             "url": "https://bielsnor.github.io/futureproof/futureproof-COVID19-USA/",
             "relUrl": "/futureproof-COVID19-USA/",
@@ -23,7 +12,7 @@
     
   
     
-        ,"post2": {
+        ,"post1": {
             "title": "Estimating The Infected Population From Deaths",
             "content": ". Note: This dashboard contains the results of a predictive model. The author has tried to make it as accurate as possible. But the COVID-19 situation is changing quickly, and these models inevitably include some level of speculation. . Estimated Infected Population By Country . by days since outbreak . Tip: Click (Shift+ for multiple) on countries in the legend to filter the visualization. . Latest Country Estimates . Date Estimated Infected Lower Bound Estimates Upper Bound Estimates . Country . Brazil 2020-03-26 | 10,093 | 7,764 | 14,418 | . China 2020-03-26 | 82,480 | 81,782 | 117,829 | . France 2020-03-26 | 90,155 | 69,350 | 128,792 | . Germany 2020-03-26 | 127,329 | 97,945 | 181,898 | . Iran 2020-03-26 | 53,107 | 40,852 | 75,867 | . Italy 2020-03-26 | 146,286 | 112,527 | 208,979 | . Japan 2020-03-26 | 2,173 | 1,672 | 3,104 | . Portugal 2020-03-26 | 15,118 | 11,630 | 21,598 | . Singapore 2020-03-26 | 1,481 | 1,139 | 2,115 | . South Korea 2020-03-26 | 9,825 | 9,241 | 14,036 | . Spain 2020-03-26 | 209,057 | 160,813 | 298,653 | . United Kingdom 2020-03-26 | 44,459 | 34,199 | 63,513 | . United States 2020-03-26 | 442,093 | 340,071 | 631,561 | . Infected vs. number of confirmed cases . Allows you to compare how countries have been tracking the true number of infected people. The smaller deviation from the dashed line (45 degree line) the better job at tracking the true number of infected people. . . Tip: Click (Shift+ for multiple) on countries in the legend to filter the visualization. . Latest Observed vs. Estimate of Infected Cases . Date Observed Cases Estimated Infected . Country . Brazil 2020-03-26 | 2,985 | 10,093 | . China 2020-03-26 | 81,782 | 82,480 | . France 2020-03-26 | 29,551 | 90,155 | . Germany 2020-03-26 | 43,938 | 127,329 | . Iran 2020-03-26 | 29,406 | 53,107 | . Italy 2020-03-26 | 80,589 | 146,286 | . Japan 2020-03-26 | 1,387 | 2,173 | . Portugal 2020-03-26 | 3,544 | 15,118 | . Singapore 2020-03-26 | 683 | 1,481 | . South Korea 2020-03-26 | 9,241 | 9,825 | . Spain 2020-03-26 | 57,786 | 209,057 | . United Kingdom 2020-03-26 | 11,812 | 44,459 | . United States 2020-03-26 | 83,836 | 442,093 | . Methodology . We argue that the number of infected in the past can be infered using today&#39;s number of deaths and average fatality rate from confirmed cases in the following way: . $$I_{t-j} = frac{D_t}{{CFR}_t}$$ . where $I_t$ = number of infected, $D_t$ = number of deaths, and ${CFR}_t $ = case fatality rate = $ frac{D}{C}$. The $j$ depends on the average number of days that covid patients die after having the first symptoms. . Assumption 1: The case fatality rate is a good proxy for the fatality rate of the infected population . Then, in order to estimate the current number of infected $I_t$ we need to estimate its growth rate from $t-j$ to $t$. . $$I_t = (1+ hat{g})^j I_{t-j}$$ . Assumption 2: The growth rate of infected $ hat{g}$ is an unbiased estimate of $g$ . . For now we estimate $g$ using the average growth rate since having the first infected person. . Assumption 3: It takes on average 8 days to die after having the first symptoms. . This analysis was conducted by Joao Duarte and updated by Ryan Gomez. Relevant sources are listed below: . 2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins CSSE GitHub repository. . | Feenstra, Robert C., Robert Inklaar and Marcel P. Timmer (2015), &quot;The Next Generation of the Penn World Table&quot; American Economic Review, 105(10), 3150-3182 . |",
             "url": "https://bielsnor.github.io/futureproof/futureproof-COVID19-covid-infected/",
@@ -34,7 +23,7 @@
     
   
     
-        ,"post3": {
+        ,"post2": {
             "title": "COVID-19 Deaths Per Capita",
             "content": "Deaths Per Million Of Inhabitants . Since reaching at least 1 death per million . Tip: Click (Shift+ for multiple) on countries in the legend to filter the visualization. . Last Available Total Deaths By Country: . date Deaths per Million Log of Deaths per Million . Country . Austria 2020-03-26 | 5.609326 | 1.724431 | . Belgium 2020-03-26 | 19.248713 | 2.957444 | . China 2020-03-26 | 2.334842 | 0.847944 | . Denmark 2020-03-26 | 7.150891 | 1.967237 | . France 2020-03-26 | 25.257954 | 3.229141 | . Germany 2020-03-26 | 3.251568 | 1.179137 | . Greece 2020-03-26 | 2.329797 | 0.845781 | . Iran 2020-03-26 | 27.524929 | 3.315092 | . Italy 2020-03-26 | 138.393087 | 4.930098 | . Netherlands 2020-03-26 | 25.534255 | 3.240021 | . Norway 2020-03-26 | 2.638829 | 0.970335 | . Portugal 2020-03-26 | 5.808603 | 1.759340 | . South Korea 2020-03-26 | 2.569524 | 0.943721 | . Spain 2020-03-26 | 94.165980 | 4.545059 | . Sweden 2020-03-26 | 7.769380 | 2.050190 | . Switzerland 2020-03-26 | 22.534202 | 3.115034 | . United Kingdom 2020-03-26 | 8.763767 | 2.170626 | . United States 2020-03-26 | 3.726197 | 1.315388 | . Appendix . . Warning: The following chart, &quot;Cases Per Million of Habitants&quot; is biased depending on how widely a country administers tests. Please read with caution. . Cases Per Million of Habitants . Last Available Cases Per Million By Country: . date Cases per Million Log of Cases per Million . Country . Brazil 2020-03-26 | 14.262623 | 2.657642 | . China 2020-03-26 | 58.021275 | 4.060810 | . France 2020-03-26 | 439.574668 | 6.085808 | . Germany 2020-03-26 | 535.083888 | 6.282424 | . Iran 2020-03-26 | 362.308893 | 5.892497 | . Italy 2020-03-26 | 1357.633656 | 7.213499 | . Japan 2020-03-26 | 10.879758 | 2.386904 | . Portugal 2020-03-26 | 343.094822 | 5.838007 | . Singapore 2020-03-26 | 119.638928 | 4.784478 | . South Korea 2020-03-26 | 181.259299 | 5.199929 | . Spain 2020-03-26 | 1246.615188 | 7.128187 | . United Kingdom 2020-03-26 | 178.478645 | 5.184469 | . United States 2020-03-26 | 258.386662 | 5.554457 | . &quot;2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins CSSE&quot; GitHub repository. . | Feenstra, Robert C., Robert Inklaar and Marcel P. Timmer (2015), &quot;The Next Generation of the Penn World Table&quot; American Economic Review, 105(10), 3150-3182 . |",
             "url": "https://bielsnor.github.io/futureproof/futureproof-COVID19-covid-compare-permillion/",
@@ -45,18 +34,7 @@
     
   
     
-        ,"post4": {
-            "title": "Compare Country Trajectories - Total Cases",
-            "content": "Learning from Italy, South Korea &amp; Japan . Italy, South Korea &amp; Japan are three countries which show different growth rates and how it evolved over time. . South Korea flattened it&#39;s growth after 2 weeks since 100 cases. Italy continue to grew after 3rd week. . Where does your Country stand today? . Click (Shift+ for multiple) on Countries legend to filter the visualization. . Last Updated on March, 26 2020 Select a country from the drop down list below to toggle the visualization. .",
-            "url": "https://bielsnor.github.io/futureproof/futureproof-COVID19-compare-country-trajectories/",
-            "relUrl": "/futureproof-COVID19-compare-country-trajectories/",
-            "date": " • Mar 17, 2020"
-        }
-        
-    
-  
-    
-        ,"post5": {
+        ,"post3": {
             "title": "Compare Death Rate Trajectories",
             "content": "Learning from Italy, South Korea, Japan . Italy, South Korea &amp; Japan are three countries which show significantly different total deaths growth rates and evolution over time. . South Korea and Japan have a lower growth rate since thier 10th death. Italy has been growing close to 33% until 3 weeks since their 10th death. . Where does your country stand today? . Click (Shift+ for multiple) on Countries legend to filter the visualization. . Last Updated on March, 26 2020 Select a country from the drop down list below to toggle the visualization. . Learning From Lombardy, Italy . Lombardy, a region of Italy with a population of only 10 million people, has reached over 4,000 deaths due to Covid-19. At its highest daily death toll, Lombardy had 546 deaths in one day. This shows that the virus has a high mortality rate even on a small demographic scale, likely due to overwhelmed healthcare services. . Where does your country stand in comparison to Lombardy? . Click (Shift+ for multiple) on Countries legend to filter the visualization. .",
             "url": "https://bielsnor.github.io/futureproof/futureproof-COVID19-compare-country-death-trajectories/",
@@ -67,40 +45,7 @@
     
   
     
-        ,"post6": {
-            "title": "COVID-19 Growth Rate Prediction",
-            "content": ". Note: This dashboard contains the results of a predictive model. The author has tried to make it as accurate as possible. But the COVID-19 situation is changing quickly, and these models inevitably include some level of speculation. . Data . These are the countries included in the model: . &#39;Albania, Algeria, Andorra, Argentina, Armenia, Australia (total), Austria, Bahrain, Belgium, Bosnia and Herzegovina, Brazil, Brunei, Bulgaria, Burkina Faso, Canada (total), Chile, Colombia, Costa Rica, Croatia, Cyprus, Czechia, Denmark, Denmark (total), Diamond Princess, Dominican Republic, Ecuador, Egypt, Estonia, Finland, France, France (total), Germany, Greece, Hong Kong, Hungary, Iceland, India, Indonesia, Iran, Iraq, Ireland, Israel, Italy, Japan, Jordan, Korea, South, Kuwait, Latvia, Lebanon, Lithuania, Luxembourg, Malaysia, Malta, Mexico, Moldova, Morocco, Netherlands, New Zealand, North Macedonia, Norway, Pakistan, Panama, Peru, Philippines, Poland, Portugal, Qatar, Romania, Russia, San Marino, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, Spain, Sri Lanka, Sweden, Switzerland, Taiwan*, Thailand, Tunisia, Turkey, US, United Arab Emirates, United Kingdom, Uruguay, Vietnam&#39; . Predicted Cases By Country . Select a country from the drop down list below to toggle the visualization. . Growth Rate Predictions . Text(0.5, 0.98, &#39;Posterior of daily growth&#39;) . Model Diagnostics - Trace Plots . The following trace plots help to assess the convergence of the MCMC sampler. You can safely ignore this if not familiar with MCMC. . About This Analysis . The model assumes exponential growth. This is definitely wrong because growth would just continue uninterrupted into the future. However, in the early phase of an epidemic it&#39;s a reasonable assumption.1 . We assume a negative binomial likelihood as we are dealing with count data. A Poisson could also be used but the negative binomial allows us to also model the variance separately to give more flexibility. . The model is also hierarchical, pooling information from individual countries. . . This notebook gets up-to-date data from the &quot;2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins CSSE&quot; GitHub repository. This code is provided under the BSD-3 License. Link to original notebook.&#8617; . |",
-            "url": "https://bielsnor.github.io/futureproof/futureproof-COVID19-growth-bayes/",
-            "relUrl": "/futureproof-COVID19-growth-bayes/",
-            "date": " • Mar 16, 2020"
-        }
-        
-    
-  
-    
-        ,"post7": {
-            "title": "Interactive Map - Confirmed Cases in the US by State",
-            "content": "Click On State To Filter Chart Below . .",
-            "url": "https://bielsnor.github.io/futureproof/futureproof-COVID19-growth-usa/",
-            "relUrl": "/futureproof-COVID19-growth-usa/",
-            "date": " • Mar 15, 2020"
-        }
-        
-    
-  
-    
-        ,"post8": {
-            "title": "Changes In The Daily Growth Rate",
-            "content": "Appendix: German ICU Capacity . Updated daily by GitHub Actions. . .",
-            "url": "https://bielsnor.github.io/futureproof/futureproof-COVID19-growth-analysis/",
-            "relUrl": "/futureproof-COVID19-growth-analysis/",
-            "date": " • Mar 14, 2020"
-        }
-        
-    
-  
-    
-        ,"post9": {
+        ,"post4": {
             "title": "An Example Markdown Post",
             "content": "Example Markdown Post . Basic setup . Jekyll requires blog post files to be named according to the following format: . YEAR-MONTH-DAY-filename.md . Where YEAR is a four-digit number, MONTH and DAY are both two-digit numbers, and filename is whatever file name you choose, to remind yourself what this post is about. .md is the file extension for markdown files. . The first line of the file should start with a single hash character, then a space, then your title. This is how you create a “level 1 heading” in markdown. Then you can create level 2, 3, etc headings as you wish but repeating the hash character, such as you see in the line ## File names above. . Basic formatting . You can use italics, bold, code font text, and create links. Here’s a footnote 1. Here’s a horizontal rule: . . Lists . Here’s a list: . item 1 | item 2 | . And a numbered list: . item 1 | item 2 | Boxes and stuff . This is a quotation . . You can include alert boxes …and… . . You can include info boxes Images . . Code . You can format text and code per usual . General preformatted text: . # Do a thing do_thing() . Python code and output: . # Prints &#39;2&#39; print(1+1) . 2 . Formatting text as shell commands: . echo &quot;hello world&quot; ./some_script.sh --option &quot;value&quot; wget https://example.com/cat_photo1.png . Formatting text as YAML: . key: value - another_key: &quot;another value&quot; . Tables . Column 1 Column 2 . A thing | Another thing | . Tweetcards . Altair 4.0 is released! https://t.co/PCyrIOTcvvTry it with: pip install -U altairThe full list of changes is at https://t.co/roXmzcsT58 ...read on for some highlights. pic.twitter.com/vWJ0ZveKbZ . &mdash; Jake VanderPlas (@jakevdp) December 11, 2019 Footnotes . This is the footnote. &#8617; . |",
             "url": "https://bielsnor.github.io/futureproof/markdown/2020/01/14/test-markdown-post.html",
