@@ -208,7 +208,7 @@ table td { border: 1px solid #e8e8e8; }
 @media screen and (max-width: 800px) { table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; -ms-overflow-style: -ms-autohiding-scrollbar; } }
 
 /** Site header */
-.site-header { border-top: 5px solid #424242; border-bottom: 1px solid #e8e8e8; min-height: 55.95px; line-height: 54px; position: relative; }
+.site-header { border-top: 0px solid #424242; border-bottom: 0px solid #e8e8e8; min-height: 0px; line-height: 0px; position: relative; visibility: hidden; }
 
 .site-title { font-size: 1.625rem; font-weight: 300; letter-spacing: -1px; margin-bottom: 0; float: left; }
 
@@ -242,9 +242,9 @@ table td { border: 1px solid #e8e8e8; }
   .site-nav .page-link:not(:last-child) { margin-right: 20px; } }
 
 /** Site footer */
-.site-footer { border-top: 1px solid #e8e8e8; padding: 30px 0; }
+.site-footer { border-top: 1px solid #e8e8e8; padding: 0px 0; visibility: hidden; }
 
-.footer-heading { font-size: 1.125rem; margin-bottom: 15px; }
+.footer-heading { font-size: 1.125rem; margin-bottom: 5px; }
 
 .feed-subscribe .svg-icon { padding: 5px 5px 2px 0; }
 
@@ -268,7 +268,7 @@ table td { border: 1px solid #e8e8e8; }
   .footer-col:last-child { padding-right: 0; padding-left: 15px; } }
 
 /** Page content */
-.page-content { padding: 30px 0; flex: 1 0 auto; }
+.page-content { padding: 3px 0; flex: 1 0 auto; }
 
 .page-heading { font-size: 2rem; }
 
@@ -276,22 +276,22 @@ table td { border: 1px solid #e8e8e8; }
 
 .post-list { margin-left: 0; list-style: none; }
 
-.post-list > li { margin-bottom: 30px; }
+.post-list > li { margin-bottom: 10px; }
 
 .post-meta { font-size: 14px; color: #828282; }
 
 .post-link { display: block; font-size: 1.5rem; }
 
 /** Posts */
-.post-header { margin-bottom: 30px; }
+.post-header { margin-bottom: 0px; visibility: hidden; height: 1px; }
 
-.post-title, .post-content h1 { font-size: 2.625rem; letter-spacing: -1px; line-height: 1.15; }
+.post-title, .post-content h1 { visibility: hidden; }
 
 @media screen and (min-width: 800px) { .post-title, .post-content h1 { font-size: 2.625rem; } }
 
-.post-content { margin-bottom: 30px; }
+.post-content { margin-bottom: 8px; }
 
-.post-content h1, .post-content h2, .post-content h3 { margin-top: 60px; }
+.post-content h1, .post-content h2, .post-content h3 { margin-top: 10px; }
 
 .post-content h4, .post-content h5, .post-content h6 { margin-top: 30px; }
 
@@ -383,7 +383,7 @@ h1:hover .anchor-link, h2:hover .anchor-link, h3:hover .anchor-link, h4:hover .a
 
 .post-meta-title, .post-meta { margin-top: .25em !important; margin-bottom: .25em !important; font-size: 105%; }
 
-.page-description { margin-top: .5rem !important; margin-bottom: .5rem !important; color: #585858; font-size: 115%; }
+.page-description { visibility: hidden; }
 
 .category-tags-icon { font-size: 75% !important; padding-left: 0.375em; opacity: 35%; }
 
