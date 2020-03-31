@@ -6,6 +6,7 @@
 <title>Estimating The Infected Population From Deaths</title>
 <meta name="generator" content="Jekyll v4.0.0" />
 <meta property="og:title" content="Estimating The Infected Population From Deaths" />
+<meta name="author" content="Joao B. Duarte" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Estimating the number of infected people by country based on the number of deaths and case fatality rate." />
 <meta property="og:description" content="Estimating the number of infected people by country based on the number of deaths and case fatality rate." />
@@ -15,7 +16,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-03-30T00:00:00-05:00" />
 <script type="application/ld+json">
-{"description":"Estimating the number of infected people by country based on the number of deaths and case fatality rate.","headline":"Estimating The Infected Population From Deaths","dateModified":"2020-03-30T00:00:00-05:00","datePublished":"2020-03-30T00:00:00-05:00","@type":"BlogPosting","image":"https://bielsnor.github.io/futureproof/images/covid-estimate-infections.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://bielsnor.github.io/futureproof/covid-infected/"},"url":"https://bielsnor.github.io/futureproof/covid-infected/","@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"Joao B. Duarte"},"description":"Estimating the number of infected people by country based on the number of deaths and case fatality rate.","headline":"Estimating The Infected Population From Deaths","dateModified":"2020-03-30T00:00:00-05:00","datePublished":"2020-03-30T00:00:00-05:00","@type":"BlogPosting","image":"https://bielsnor.github.io/futureproof/images/covid-estimate-infections.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://bielsnor.github.io/futureproof/covid-infected/"},"url":"https://bielsnor.github.io/futureproof/covid-infected/","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/futureproof/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://bielsnor.github.io/futureproof/feed.xml" /><!-- the google_analytics_id gets auto inserted from the config file -->
 
@@ -27,6 +28,7 @@
 <title>Estimating The Infected Population From Deaths</title>
 <meta name="generator" content="Jekyll v4.0.0" />
 <meta property="og:title" content="Estimating The Infected Population From Deaths" />
+<meta name="author" content="Joao B. Duarte" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Estimating the number of infected people by country based on the number of deaths and case fatality rate." />
 <meta property="og:description" content="Estimating the number of infected people by country based on the number of deaths and case fatality rate." />
@@ -36,7 +38,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-03-30T00:00:00-05:00" />
 <script type="application/ld+json">
-{"description":"Estimating the number of infected people by country based on the number of deaths and case fatality rate.","headline":"Estimating The Infected Population From Deaths","dateModified":"2020-03-30T00:00:00-05:00","datePublished":"2020-03-30T00:00:00-05:00","@type":"BlogPosting","image":"https://bielsnor.github.io/futureproof/images/covid-estimate-infections.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://bielsnor.github.io/futureproof/covid-infected/"},"url":"https://bielsnor.github.io/futureproof/covid-infected/","@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"Joao B. Duarte"},"description":"Estimating the number of infected people by country based on the number of deaths and case fatality rate.","headline":"Estimating The Infected Population From Deaths","dateModified":"2020-03-30T00:00:00-05:00","datePublished":"2020-03-30T00:00:00-05:00","@type":"BlogPosting","image":"https://bielsnor.github.io/futureproof/images/covid-estimate-infections.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://bielsnor.github.io/futureproof/covid-infected/"},"url":"https://bielsnor.github.io/futureproof/covid-infected/","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
@@ -128,8 +130,8 @@ window.onload = wrap_img;
 <div class="text_cell_render border-box-sizing rendered_html">
 <p></p>
 <div class="flash">
-    <svg class="octicon octicon-info octicon octicon-info" viewbox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 01-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 01-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg>
-    <strong>Note: </strong>This dashboard contains the results of a predictive model. This model includes subjective assumptions based on scietnific reasoning and current data.  
+    <svg class="octicon octicon-info octicon octicon-info octicon octicon-info" viewbox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 01-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 01-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg>
+    <strong>Note: </strong>This dashboard contains the results of a predictive model. The author has tried to make it as accurate as possible. But the COVID-19 situation is changing quickly, and these models inevitably include some level of speculation.
 </div>
 
 </div>
@@ -141,7 +143,7 @@ window.onload = wrap_img;
 <h2 id="Estimated-Infected-Population-By-Country">
 <a class="anchor" href="#Estimated-Infected-Population-By-Country" aria-hidden="true"><span class="octicon octicon-link"></span></a>Estimated Infected Population By Country<a class="anchor-link" href="#Estimated-Infected-Population-By-Country"> </a>
 </h2>
-<p>by days since outbreak
+<p>with respect to days since outbreak
 </p>
 <div class="flash flash-success">
     <svg class="octicon octicon-checklist octicon octicon-checklist octicon octicon-checklist" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 8.5l-6 6-3-3L8.5 10l1.5 1.5L14.5 7 16 8.5zM5.7 12.2l.8.8H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h7c.55 0 1 .45 1 1v6.5l-.8-.8c-.39-.39-1.03-.39-1.42 0L5.7 10.8a.996.996 0 000 1.41v-.01zM4 4h5V3H4v1zm0 2h5V5H4v1zm0 2h3V7H4v1zM3 9H2v1h1V9zm0-2H2v1h1V7zm0-2H2v1h1V5zm0-2H2v1h1V3z"></path></svg>
@@ -317,7 +319,7 @@ During handling of the above exception, another exception occurred:
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>We argue that the number of infected in the past can be infered using today's number of deaths and average fatality rate from confirmed cases in the following way:</p>
+<p>We argue that the number of infected in the past can be inferred using today's number of deaths and average fatality rate from confirmed cases in the following way:</p>
 <p>$$I_{t-j} = \frac{D_t}{{CFR}_t}$$</p>
 <p>where $I_t$ = number of infected, $D_t$ = number of deaths, and ${CFR}_t $ = case fatality rate = $\frac{D}{C}$. The $j$ depends on the average number of days that covid patients die after having the first symptoms.</p>
 
@@ -345,7 +347,7 @@ During handling of the above exception, another exception occurred:
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Assumption 2</strong>: The growth rate of infected $\hat{g}$ is an unbiased estimate of $g$ .</p>
-<p>We estimate $g$ using the average growth rate since the first confirmed infected person.</p>
+<p>For now we estimate $g$ using the average growth rate since having the first infected person.</p>
 
 </div>
 </div>
@@ -353,7 +355,7 @@ During handling of the above exception, another exception occurred:
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Assumption 3</strong>: The average time to mortaility is 8 days.</p>
+<p><strong>Assumption 3</strong>: It takes on average 8 days to die after having the first symptoms.</p>
 
 </div>
 </div>
@@ -361,7 +363,7 @@ During handling of the above exception, another exception occurred:
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>This analysis was conducted by <a href="https://www.jbduarte.com">Joao B. Duarte</a>. Relevant sources are listed below:</p>
+<p>This analysis was conducted by <a href="http://jbduarte.com">Joao B. Duarte</a>. Relevant sources are listed below:</p>
 <ol>
 <li>
 <p><a href="https://systems.jhu.edu/research/public-health/ncov/">2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins CSSE</a> <a href="https://github.com/CSSEGISandData/COVID-19">GitHub repository</a>.</p>
@@ -378,7 +380,15 @@ During handling of the above exception, another exception occurred:
 
 
 
-  </div><a class="u-url" href="/futureproof/covid-infected/" hidden></a>
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="bielsnor/futureproof"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/futureproof/covid-infected/" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
