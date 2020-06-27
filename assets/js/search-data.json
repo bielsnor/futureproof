@@ -3,7 +3,7 @@
     
         "post0": {
             "title": "Matplotlibtard",
-            "content": "",
+            "content": "import numpy as np import matplotlib.pyplot as plt fig = plt.figure() x = np.arange(10) y = 2.5 * np.sin(x / 20 * np.pi) yerr = np.linspace(0.05, 0.2, 10) plt.errorbar(x, y + 3, yerr=yerr, label=&#39;both limits (default)&#39;) plt.errorbar(x, y + 2, yerr=yerr, uplims=True, label=&#39;uplims=True&#39;) plt.errorbar(x, y + 1, yerr=yerr, uplims=True, lolims=True, label=&#39;uplims=True, lolims=True&#39;) upperlimits = [True, False] * 5 lowerlimits = [False, True] * 5 plt.errorbar(x, y, yerr=yerr, uplims=upperlimits, lolims=lowerlimits, label=&#39;subsets of uplims and lolims&#39;) plt.legend(loc=&#39;lower right&#39;) . &lt;matplotlib.legend.Legend at 0x1fc2bbc5908&gt; .",
             "url": "https://bielsnor.github.io/futureproof/futureproof-testplots/",
             "relUrl": "/futureproof-testplots/",
             "date": " • Jun 27, 2020"
